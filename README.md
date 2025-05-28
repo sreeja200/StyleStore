@@ -1,4 +1,16 @@
 # StyleStore
+*COMPANY*: CODETECH IT SOLUTIONS
+
+*NAME* : SREEJA GUNNAM
+
+*INTERN ID*: CT04DL1361
+
+*DOMAIN*: WEB DEVELOPMENT
+
+*DURATION* : 4 WEEKS
+
+*MENTOR* : NEELA SANTOSH
+
 A PWA e-commerce site with offline access and installable features, built using HTML, CSS, JS.
 
 # Output
