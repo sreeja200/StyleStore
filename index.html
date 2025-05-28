@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleStore - Modern Fashion</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">StyleStore</div>
+            <div class="nav-items">
+                <a href="#" class="active">Home</a>
+                <a href="#products">Products</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="cart-icon" id="cartIcon">
+                <span class="cart-count">0</span>
+                🛒
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Discover Your Style</h1>
+            <p>Shop the latest trends in fashion</p>
+            <a href="#products" class="cta-button">Shop Now</a>
+        </section>
+
+        <section id="products" class="products">
+            <h2>Featured Products</h2>
+            <div class="product-grid" id="productGrid">
+                <!-- Products will be inserted here by JavaScript -->
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-content">
+                <h2>About StyleStore</h2>
+                <div class="about-grid">
+                    <div class="about-image">
+                        <img src="https://images.pexels.com/photos/3965557/pexels-photo-3965557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="About StyleStore">
+                    </div>
+                    <div class="about-text">
+                        <h3>Your Fashion Destination</h3>
+                        <p>StyleStore has been at the forefront of fashion since 2020. We believe in providing high-quality, trendy clothing and accessories at affordable prices.</p>
+                        <h3>Our Mission</h3>
+                        <p>To inspire and empower individuals through fashion, making style accessible to everyone while maintaining sustainable practices.</p>
+                        <h3>Quality Promise</h3>
+                        <p>Every product in our collection is carefully curated and quality-checked to ensure the best experience for our customers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="contact-content">
+                <h2>Get in Touch</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <div class="info-item">
+                            <strong>Address:</strong>
+                            <p>123 Fashion Street, Style City, SC 12345</p>
+                        </div>
+                        <div class="info-item">
+                            <strong>Email:</strong>
+                            <p>info@stylestore.com</p>
+                        </div>
+                        <div class="info-item">
+                            <strong>Phone:</strong>
+                            <p>(555) 123-4567</p>
+                        </div>
+                        <div class="info-item">
+                            <strong>Hours:</strong>
+                            <p>Monday - Friday: 9AM - 6PM</p>
+                            <p>Saturday: 10AM - 4PM</p>
+                            <p>Sunday: Closed</p>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <div id="cart" class="cart">
+            <div class="cart-header">
+                <h3>Shopping Cart</h3>
+                <button class="close-cart" id="closeCart">×</button>
+            </div>
+            <div class="cart-items" id="cartItems">
+                <!-- Cart items will be inserted here -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    Total: $<span id="cartTotal">0</span>
+                </div>
+                <button class="checkout-button" id="checkoutButton">Checkout</button>
+            </div>
+        </div>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <h3>Checkout</h3>
+                <form id="checkoutForm">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="Address" required>
+                    <input type="text" placeholder="Card Number" required>
+                    <div class="card-details">
+                        <input type="text" placeholder="MM/YY" required>
+                        <input type="text" placeholder="CVV" required>
+                    </div>
+                    <button type="submit" class="checkout-button">Complete Purchase</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>StyleStore offers the latest fashion trends at affordable prices.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="#products">Products</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: info@stylestore.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 StyleStore. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
