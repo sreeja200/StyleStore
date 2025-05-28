@@ -21,3 +21,7 @@ It uses a service worker to cache assets and provide seamless access even withou
 - git clone https://github.com/sreeja200/StyleStore.git
 - cd StyleStore
 - start index.html
+
+##
+🌐 Live Demo: Visit my project on Live 
+- https://stylestore1.netlify.app/
