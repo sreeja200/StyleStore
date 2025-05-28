@@ -14,3 +14,10 @@ It uses a service worker to cache assets and provide seamless access even withou
 - JS
 - Service Workers – Enabling offline access and caching
 - Web App Manifest – PWA configuration for installability
+
+
+## To run this project
+
+- git clone https://github.com/sreeja200/StyleStore.git
+- cd StyleStore
+- start index.html
