@@ -19,5 +19,5 @@ It uses a service worker to cache assets and provide seamless access even withou
 ## To run this project
 
 - git clone https://github.com/sreeja200/StyleStore.git
-- cd stylestore
+- cd StyleStore
 - start index.html
